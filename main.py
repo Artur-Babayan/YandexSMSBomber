@@ -7,9 +7,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 from fake_useragent import UserAgent
 import time
 
-# inp_number = input("Please input number: ")
-# phone_number = "+374" + inp_number
-numbers = ['95087868', '94328278', '95555229']
+
+numbers = ['94010101', '95010101', '93010101']
 code = '+374'
 for number in numbers:
     phone_number = code + number
